@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+  
+  #navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  #navbar nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Welcome section styles */
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  /* Projects section styles */
+  #projects {
+    padding: 2rem;
+  }
+  
+  .project-tile {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    #navbar nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #navbar nav a {
+      margin-bottom: 0.5rem;
+    }
+  
+    .project-tile {
+      padding: 0.5rem;
+    }
+  }
+  
